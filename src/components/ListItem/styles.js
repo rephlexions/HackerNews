@@ -17,6 +17,7 @@ export const Title = styled.h3`
   letter-spacing: 0.4px;
 `;
 
+
 export const Host = styled.span`
   color: ${({ theme }) => theme.textSecondary};
   font-size: 12px;
