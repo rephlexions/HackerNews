@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Item = styled.li`
   border-bottom: 1px solid ${({ theme }) => theme.border};
-  padding: 0px 14px 24px 14px;
+  padding: 14px 24px;
+
   &:last-child {
     border-bottom: none;
   }
@@ -10,13 +11,12 @@ export const Item = styled.li`
 
 export const Title = styled.h3`
   color: ${({ theme }) => theme.text};
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 6px;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.4px;
 `;
-
 
 export const Host = styled.span`
   color: ${({ theme }) => theme.textSecondary};
@@ -40,6 +40,7 @@ export const Description = styled.div`
 
 export const CommentLink = styled.a`
   color: ${({ theme }) => theme.textSecondary};
+
   &:visited {
     color: ${({ theme }) => theme.textSecondary};
   }

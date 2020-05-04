@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { tablet } from "../../styles/mediaQueries";
+import { mobile, tablet } from "styles/mediaQueries";
 
 export const Wrapper = styled.div`
   width: 85%;
@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
   height: 100%;
   overflow: hidden;
   padding-bottom: 200px;
+
   ${tablet} {
     width: 96%;
   }
@@ -17,4 +18,8 @@ export const Title = styled.h1`
   color: ${({ theme }) => theme.textSecondary};
   font-size: 20px;
   font-weight: 300;
+`;
+
+export const LinkWrapper = styled.div`
+  display: flex;
 `;

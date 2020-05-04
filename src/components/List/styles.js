@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ListWrapper = styled.ul`
   background-color: ${({ theme }) => theme.backgroundSecondary};
@@ -6,6 +6,7 @@ export const ListWrapper = styled.ul`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
 `;
