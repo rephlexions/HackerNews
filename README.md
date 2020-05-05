@@ -4,6 +4,10 @@ A React & Redux-powered implementation of [HackerNews](https://news.ycombinator.
 <img src="https://i.postimg.cc/tgBytFns/Annotation-2020-05-05-142445.png" 
     height="500" style="display: block;margin-left: auto;margin-right: auto;">
 
+### Features
+- Dark theme
+- Toggle between card or list view.
+
 ### Running the project
 
 In the project directory, you can run:
