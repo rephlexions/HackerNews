@@ -1,6 +1,8 @@
-## HackerNews Clone
+## Hacker News Reader
+A React & Redux-powered implementation of [HackerNews](https://news.ycombinator.com/)
 
-This is a clone of the famous website [HackerNews](https://news.ycombinator.com/) built with React.
+<img src="https://i.postimg.cc/tgBytFns/Annotation-2020-05-05-142445.png" 
+    height="500" style="display: block;margin-left: auto;margin-right: auto;">
 
 ### Running the project
 
