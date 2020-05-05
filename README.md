@@ -1,6 +1,8 @@
 ## Hacker News Reader
 A React & Redux-powered implementation of [HackerNews](https://news.ycombinator.com/)
 
+### [Live version](https://rephlexions.github.io/HackerNews/)
+
 <img src="https://i.postimg.cc/tgBytFns/Annotation-2020-05-05-142445.png" 
     height="500" style="display: block;margin-left: auto;margin-right: auto;">
 
